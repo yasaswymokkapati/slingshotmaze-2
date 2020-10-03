@@ -18,6 +18,8 @@ class Ball{
 
         rectMode(CENTER)
         rotate(angle)
+        stroke('red')
+        fill('red')
         rect(pos.x, pos.y, this.width, this.height)
     }
 }
